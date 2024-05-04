@@ -1,0 +1,109 @@
+/* navbar.component.css */
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin-right: 20px; /* Add spacing between links */
+  }
+  
+  nav li a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+/* about.component.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #007bff;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.features {
+  margin-bottom: 20px;
+}
+
+.features h2 {
+  margin-bottom: 10px;
+}
+
+.features ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features ul li::before {
+  content: "\2022";  /* Add bullet symbol */
+  color: #007bff;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.grades {
+  margin-bottom: 20px;
+}
+
+.grades h2 {
+  margin-bottom: 10px;
+}
+
+.grades table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grades th, .grades td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.grades th {
+  background-color: #f9f9f9;
+}
+
+.grades tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
